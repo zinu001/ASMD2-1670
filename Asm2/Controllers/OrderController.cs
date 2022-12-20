@@ -1,7 +1,10 @@
 using Asm2.Data;
 using Asm2.Models;
 using Microsoft.AspNetCore.Mvc;
-namespace Asm2.Controllers
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+
+namespace FPTLibrary.Controllers
 {
     public class OrderController : Controller
     {
@@ -56,3 +59,4 @@ namespace Asm2.Controllers
         }
     }
 }
+
