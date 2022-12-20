@@ -1,39 +1,48 @@
-# ASMD2-1670
-
-Index.cshtml
-
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Privacy Policy";
 }
+<div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                ABOUT US
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+                <strong>Who are we?</strong> We are FPT Book, a private limited company, registered in Vietnam. We supply books, magazines and newspapers to outlets and online in Vietnam
 
-<div class="text-center">
-
-    <h1 class="display-4">Welcome to FPT BOOK STORE</h1>
-
-</div>
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="https://media.istockphoto.com/id/1018141798/photo/back-to-school-backgrounds-for-girl-white-and-pink-stationery-books-on-white-wood-table-and.jpg?s=170667a&w=0&k=20&c=u5FPqo9VpDud_KzvxgGadGuhPJs7b3h_TBlSe_yYoAU=" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="https://d1e00ek4ebabms.cloudfront.net/production/77b41724-a1a7-464f-8135-fc7e0f7cec12.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1588580000645-4562a6d2c839?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMHNoZWxmfGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
+                This notice sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.  Please read the following carefully to understand our practices regarding your personal data and how we will treat it.
+            </div>
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                SPENDING POINTS
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> Once you’ve collected 250 points, we’ll automatically convert these into a cash balance for you to spend in-store.
+                To activate your Thank You Card for spending online, please follow these steps:
+                Click on the Loyalty Portal button at the bottom of this page to sign up for, or log in to, your online Thank You Card account.
+                In the Loyalty Portal, click on the ‘My Profile’ option at the top of the page.
+                Check the box marked ‘I would like o redeem my points online’. Please note: when this box is checked, you can only use your points online. If you would like to use your points in-store, uncheck this box.
+
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                CONTACT
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+                <strong>Contact us</strong> If you have a query that hasn’t been covered in our help centre FAQs and articles, you can contact us by filling in the form below and we will get back to you as soon as possible. Our support desk is open Monday to Friday, 9am to 5pm (excluding Bank Holidays).
+            </div>
+        </div>
+    </div>
 </div>
